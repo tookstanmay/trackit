@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation menu */
+.emptyContainer{
+    height: 72px;
+}
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#navContainer{
+    flex-direction: row;
+}
+
+.navLinks{
+    margin: 20px;
+}
+.linkImage{
+    height: 28px;
+    width: 28px;
+}
+
+
+/* main container */
+.userBio{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userImage_Name{
+    flex-direction: row;
+    margin-left: 20px;
+}
+#userImage{
+    height: 60px;
+    width: 60px;
+}
+#userName{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.attendanceMenu{
+    padding: 10px;
+    background-color: rgb(128, 90, 204);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+}
+#markAttendance{
+    text-decoration: none;
+    color: white;
+}
+#studentImage{
+    height: 266px;
+    width: 288;
+}
+.profilePageImage{
+    margin-top: 20px;
+}
+
+.statusTab{
+    justify-content: space-between;
+    background-color: #FFA500;
+    border-radius: 32px;
+    height: 101px;
+    width: 325px;
+}
+#statusInfoName{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 2px 0;
+    width: 134px;
+}
+#statusInfo{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    padding: 2px 0;
+    width: 134px;
+}
+.statusInfoImageContainer{
+    height: 50px;
+    width: 50px;
+    border: 3px solid #E49401;
+    border-radius: 100px;
+    margin-right: 25px;
+}
+.statusInfoImage{
+    height: 32px;
+    width: 32px;
+}
+.statusInfoContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.highlightContent{
+    width: 135px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #55418E;
+    margin-left: 15px;
+}
+
+.highlightContainer{
+    margin-top: 10px;
+    height: 350px;
+}
+.highlightContentImage{
+    height: 41px;
+    width: 41px;
+}
+.highlightSpanContainers{
+    flex-direction: column;
+    text-align: left;
+    border-radius: 20px;
+    height: 135px;
+    width: 152px;
+    margin: 25px 10px;
+    box-shadow: 0.25vmin 0.25vmin 2vmin rgb(183, 183, 183);
+}
+.highlightDataYellow{
+    color: #FFA500;
+}

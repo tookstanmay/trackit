@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <!-- Barlow Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;500&display=swap" rel="stylesheet">
+
+    <!-- Styles.css -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    
+    <header>
+        <nav id="navBar">
+            <div id="navContainer" class="displayFlex">
+                <a href="#" class="navLinks" id="linkCourses">
+                    <img src="./images/courses.png" alt="course_image" class="linkImage" id="coursesImage">
+                </a>
+                <a href="#" class="navLinks" id="linkCalendar">
+                    <img src="./images/calendar.png" alt="calendar_image" class="linkImage" id="calendarImage">
+                </a>
+                <a href="#" class="navLinks" id="linkHome">
+                    <img src="./images/home.png" alt="home_image" id="homeImage" class="linkImage">
+                </a>
+                <a href="#" class="navLinks" id="linkAssignments">
+                    <img src="./images/assignments.png" alt="assignments_image" id="assignmentsImage" class="linkImage">
+                </a>
+                <a href="#" class="navLinks" id="linkMore">
+                    <img src="./images/more.png" alt="more_image" class="linkImage" id="moreImage">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="mainContent">
+            <div class="userBio displayFlex">
+                <div class="userImage_Name displayFlex">
+                    <img src="./images/userImage.png" alt="user_image" id="userImage">
+                    <span id="userName">Mr. Wick</span>
+                </div>
+                <div class="attendanceMenu displayFlex">
+                    <a href="./attendance.html" id="markAttendance">mark</a>
+                </div>
+            </div>
+            <div class="profilePageImage displayFlex">
+                <img src="./images/student.png" alt="student_image" id="studentImage">
+            </div>
+            <div class="statusTabContainer displayFlex">
+                <div class="statusTab displayFlex">
+                    <div class="statusInfoContainer">
+                        <div id="statusInfoName">John's Status</div>
+                        <div id="statusInfo">CSE IV Semester</div>
+                    </div>
+                    <div class="statusInfoImageContainer displayFlex">
+                        <img src="./images/lock.png" alt="status_Image" class="statusInfoImage">
+                    </div>
+                </div>
+            </div>
+            <div class="highlightContainer displayFlex">
+                <div class="row">
+                    <div class="highlightSpanContainers displayFlex">
+                        <span class="highlightContent highlightContentHeading">Total Attendance.</span>
+                        <span class="highlightContent">
+                            <img src="./images/attendance_logo.png" alt="highlightContent_Image" class="highlightContentImage">
+                        </span>
+                        <span class="highlightContent highlightDataYellow">34 off 45 days.</span>
+                    </div>
+                    <div class="highlightSpanContainers displayFlex">
+                        <span class="highlightContent highlightContentHeading">Percentage.</span>
+                        <span class="highlightContent">
+                            <img src="./images/percentage_logo.png" alt="highlightContent_Image" class="highlightContentImage">
+                        </span>
+                        <span class="highlightContent highlightDataYellow">75.55%</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="highlightSpanContainers displayFlex">
+                        <span class="highlightContent highlightContentHeading">Feed Uploads.</span>
+                        <span class="highlightContent">
+                            <img src="./images/feed_uploads_logo.png" alt="highlightContent_Image" class="highlightContentImage">
+                        </span>
+                        <span class="highlightContent highlightDataYellow">4 new to view.</span>
+                    </div>
+                    <div class="highlightSpanContainers displayFlex">
+                        <span class="highlightContent highlightContentHeading">Pending latest.</span>
+                        <span class="highlightContent">
+                            <img src="./images/pending_latest_logo.png" alt="highlightContent_Image" class="highlightContentImage">
+                        </span>
+                        <span class="highlightContent highlightDataYellow">3 days left.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <div class="emptyContainer">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Page</title>
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <!-- Barlow Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;500&display=swap" rel="stylesheet">
+
+    <!-- Styles.css -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Attendance.css -->
+    <link rel="stylesheet" href="./attendance.css">
+</head>
+<body>
+    <header>
+        <nav id="navBar">
+            <div id="navContainer" class="displayFlex">
+                <a href="#" class="navLinks" id="linkCourses">
+                    <img src="./images/courses.png" alt="course_image" class="linkImage" id="coursesImage">
+                </a>
+                <a href="#" class="navLinks" id="linkCalendar">
+                    <img src="./images/calendar.png" alt="calendar_image" class="linkImage" id="calendarImage">
+                </a>
+                <a href="./profile.html" class="navLinks" id="linkHome">
+                    <img src="./images/home.png" alt="home_image" id="homeImage" class="linkImage">
+                </a>
+                <a href="#" class="navLinks" id="linkAssignments">
+                    <img src="./images/assignments.png" alt="assignments_image" id="assignmentsImage" class="linkImage">
+                </a>
+                <a href="#" class="navLinks" id="linkMore">
+                    <img src="./images/more.png" alt="more_image" class="linkImage" id="moreImage">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pageHeading displayFlex">
+            <div class="pageHeadingText">mark your presence.</div>
+        </div>
+        <div class="choiceSelectionContainer displayFlex">
+            <div class="choiceSelectionText">
+                Select your subject from following available options and mark your attendance precisely entering the correct code as shared by the faculty.
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="wrapperContainer displayFlex">
+            <form action="" id="attendanceForm">
+                <div class="wrapper displayFlex">
+                    <input type="radio" name="subject" id="os">
+                    <input type="radio" name="subject" id="dsa">
+                    <input type="radio" name="subject" id="ds">
+                    <input type="radio" name="subject" id="dc">
+                    <input type="radio" name="subject" id="mat">
+                
+                    <label for="os" class="option option-1">
+                      <span>operating systems.</span>
+                    </label>
+                    <label for="dsa" class="option option-2">
+                      <span>data structures.</span>
+                    </label>
+                    <label for="ds" class="option option-3">
+                      <span>discrete structures.</span>
+                    </label>
+                    <label for="dc" class="option option-4">
+                      <span>digital communication.</span>
+                    </label>
+                    <label for="mat" class="option option-5">
+                      <span>mathematics.</span>
+                    </label>
+    
+                </div>
+                    <div class="displayFlex codeContainer">
+                        <label for="code" class="codeText">
+                            <div>code:</div>
+                        </label>
+                        <div>
+                            <input type="text" name="code" id="code" maxlength="4">
+                        </div>
+                    </div>
+                    <div class="submitButtonDiv">
+                        <label for="submit">
+                            <input type="submit" value="Submit" id="submit">
+                        </label>
+                    </div>
+            </form>
+        </div>
+    </main>
+    <div class="emptyContainer">
+
+</body>
+</html>

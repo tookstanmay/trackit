@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pageHeading{
+    background-color: #55418E;
+    color: white;
+    justify-content: left;
+}
+.pageHeadingText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    margin: 10px 0 10px 20px;
+}
+
+.choiceSelectionContainer{
+    margin-top: 40px;
+}
+
+.choiceSelectionText{
+    color: rgb(199, 0, 0);
+    width: 75vw;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.wrapperContainer{
+    margin-top: 10%;
+}
+
+.wrapper {
+    width: 300px;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    box-shadow: 0.25vmin 0.25vmin 1vmin rgb(167, 152, 193);
+
+}
+
+.wrapper .option {
+    text-align: left;
+    height: 100%;
+    width: 300px;
+    margin: 7px auto;
+    margin-left: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="text"] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 150px;
+    outline: none;
+}
+
+input[type="text"]:focus{
+    border: 3px solid rgb(198, 129, 0);
+    border-radius: 5px;
+}
+
+.codeContainer{
+    flex-direction: column;
+    text-align: left;
+    margin-top: 40px;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.codeContainer div{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.codeText{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.codeText div{
+    font-size: 20px;
+}
+
+input#code:focus ~ .codeText{
+    color: rgb(74, 0, 212);
+}
+
+input#os:checked ~ .option-1,
+input#dsa:checked ~ .option-2,
+input#ds:checked ~ .option-3,
+input#dc:checked ~ .option-4,
+input#mat:checked ~ .option-5  {
+    color: rgb(0, 145, 255);
+}
+
+input#os:checked ~ .option-1 span,
+input#dsa:checked ~ .option-2 span,
+input#ds:checked ~ .option-3 span,
+input#dc:checked ~ .option-4 span,
+input#mat:checked ~ .option-5 span {
+    color: rgb(0, 145, 255);
+}
+
+.wrapper .option span {
+    font-size: 22px;
+    font-family: 'Barlow', sans-serif;
+}
+
+input[type="submit"]{
+    height: 45px;
+    width: 90px;
+    background-color: rgb(0, 85, 164);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover{
+    color: rgb(0, 85, 164);
+    background-color: white;
+    border: 2px solid rgb(0, 85, 164);
+    transition: 0.25s ease-in-out;
+}
+
+.submitButtonDiv{
+    text-align: right;
+    margin: 40px 0 30px 30px;
+}
