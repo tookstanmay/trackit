@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+/* removing highlight color of links on click*/
+a{
+    -webkit-tap-highlight-color: transparent;
+}
 
 /* navigation menu */
 .emptyContainer{
